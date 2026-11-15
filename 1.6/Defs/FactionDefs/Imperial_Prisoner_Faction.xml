@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Prisoner_Player</defName>
+        <label>Pardoned Prisoners</label>
+        <description>Former inmates of the Imperial prisons, set free by a pardon nobody can explain. They come from every corner of Tamriel and share little besides a criminal record and the road they were left on.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Imperial_Settler</basicMemberKind>
+        <pawnSingular>prisoner</pawnSingular>
+        <pawnsPlural>prisoners</pawnsPlural>
+        <leaderTitle>Chief</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.45, 0.42, 0.38)</li>
+        </colorSpectrum>
+        <allowedCultures>
+            <li>ESCP_Culture_Imperial</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Imperial_Child</li>
+                    <li>ESCP_Backstory_Imperial_Citizen</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+</Defs>

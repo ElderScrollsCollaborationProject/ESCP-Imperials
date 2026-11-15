@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Imperial_Player</defName>
+        <label>Imperial Colony</label>
+        <description>A settlement founded in the name of the Empire of Cyrodiil. Distant from the marble towers of the Imperial City, the colony is governed by a Count who answers to the Elder Council and upholds Imperial law on this far frontier.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Imperial_Settler</basicMemberKind>
+        <pawnSingular>Imperial</pawnSingular>
+        <pawnsPlural>Imperials</pawnsPlural>
+        <leaderTitle>Count</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.72, 0.12, 0.12)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Imperial>1</ESCP_Xenotype_Imperial>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Imperial</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Imperial_Child</li>
+                    <li>ESCP_Backstory_Imperial_Citizen</li>
+                    <li>ESCP_Backstory_Colovian_Child</li>
+                    <li>ESCP_Backstory_Colovian_Citizen</li>
+                    <li>ESCP_Backstory_Nibenean_Child</li>
+                    <li>ESCP_Backstory_Nibenean_Citizen</li>
+                    <li>ESCP_Backstory_Imperial_Legion</li>
+                    <li>ESCP_Backstory_Imperial_Mage</li>
+                    <li>ESCP_Backstory_Imperial_Merchant</li>
+                    <li>ESCP_Backstory_Imperial_Noble</li>
+                    <li>ESCP_Backstory_Imperial_Blades</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_Empire</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

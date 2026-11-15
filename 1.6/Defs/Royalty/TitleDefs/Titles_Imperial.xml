@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Imperial_Citizen</defName>
+        <label>Imperial citizen</label>
+        <description>The foundational rank of Imperial society. A citizen holds the full protection of Imperial law and the right to trade, travel, and petition the Elder Council. All free peoples of the Empire may claim this distinction by swearing loyalty to the Ruby Throne.</description>
+        <tags>
+            <li>ESCP_Title_Imperial</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Imperial_Knight_Errant</defName>
+        <label>Knight-Errant</label>
+        <description>A warrior who has distinguished themselves in service to the Empire but has not yet been formally inducted into a knightly order. Knight-Errants are dispatched on individual assignments, often to distant or dangerous posts, proving their worth before being raised to the full rank of Knight.</description>
+        <tags>
+            <li>ESCP_Title_Imperial</li>
+        </tags>
+        <seniority>100</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Imperial_Knight</defName>
+        <label>Knight</label>
+        <description>A full member of an Imperial knightly order, sworn to uphold the laws of the Empire and defend its people. Knights serve as officers, garrison commanders, and personal guards to ranking nobility. The most prestigious order, the Order of the Dragon, guards the Emperor himself.</description>
+        <tags>
+            <li>ESCP_Title_Imperial</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Imperial_Legate</defName>
+        <label>Legate</label>
+        <description>A senior Imperial officer who carries both military and administrative authority. Legates command Legion cohorts, oversee the collection of the Imperial tithe, and ensure the law of the Ruby Throne is enforced in the regions under their watch. The rank is an honor earned through demonstrated loyalty and service rather than birth.</description>
+        <tags>
+            <li>ESCP_Title_Imperial</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Imperial_Count</defName>
+        <label>Count</label>
+        <description>A Count rules an entire county in the Emperor's name, one of the great cities and their surrounding lands that form the heartland of Cyrodiil. Counts hold seats on the Elder Council, command the county Legion garrison, and bear responsibility for the welfare of thousands. It is the highest rank achievable through merit and loyal service alone.</description>
+        <tags>
+            <li>ESCP_Title_Imperial</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>15</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>5</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

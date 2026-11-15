@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Imperial_Bearing</defName>
+        <label>Imperial bearing</label>
+        <description>Carriers have an innate authority and diplomatic grace forged by centuries of Imperial civilization. They carry themselves with a natural confidence that makes others more receptive and willing to listen.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Bearing</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <SocialImpact>0.15</SocialImpact>
+            <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Voice_Emperor</defName>
+        <label>Voice of the Emperor</label>
+        <description>Carriers possess the legendary gift of Cyrodiil's bloodline - a silver tongue capable of swaying the hearts of men. They are exceptional traders and can more readily bring others to their cause.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Voice_Emperor</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <TradePriceImprovement>0.1</TradePriceImprovement>
+            <ConversionPower>0.2</ConversionPower>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Imperial_VoiceEmperor</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Imperial_Discipline</defName>
+        <label>Imperial discipline</label>
+        <description>Carriers carry the rigorous training of the Imperial Legion in their blood. They are steadier under fire, more precise in combat, and can endure greater pain before succumbing to shock.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Discipline</iconPath>
+        <displayCategory>Violence</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+            <MeleeHitChance>0.04</MeleeHitChance>
+            <PainShockThreshold>0.1</PainShockThreshold>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Nibenean</defName>
+        <label>Nibenean heritage</label>
+        <geneClass>ESCP.Imperials.Gene_Nibenean</geneClass>
+        <description>Carriers trace their blood to the Nibenay Basin - the fertile, mystical heartland of Cyrodiil. Nibeneans are scholars, traders, and worshippers of the Eight Divines, more contemplative than their western kin. They regard Colovians as blunt and provincial, and the feeling is rarely not returned.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Nibenean</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>300</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <statOffsets>
+            <ResearchSpeed>0.05</ResearchSpeed>
+            <SocialImpact>0.05</SocialImpact>
+        </statOffsets>
+        <exclusionTags>
+            <li>ImperialHeritage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Colovian</defName>
+        <label>Colovian heritage</label>
+        <geneClass>ESCP.Imperials.Gene_Colovian</geneClass>
+        <description>Carriers descend from the proud Colovian Estates of western Cyrodiil, which have supplied the Empire with its finest soldiers and administrators for generations. Colovians are direct, disciplined, and self-reliant. They regard Nibeneans as soft and overindulged, and the feeling is rarely not returned.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Colovian</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>301</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <statOffsets>
+            <MeleeHitChance>0.03</MeleeHitChance>
+            <PainShockThreshold>0.05</PainShockThreshold>
+        </statOffsets>
+        <exclusionTags>
+            <li>ImperialHeritage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Imperial_Heritage</defName>
+        <label>Imperial heritage</label>
+        <geneClass>ESCP.Imperials.Gene_ImperialHeritage</geneClass>
+        <description>The blood of Cyrodiil runs strong in this carrier. Their lineage traces to either the mercantile Nibenay Basin or the martial Colovian Estates - and that heritage shapes who they are.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Heritage</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>299</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <selectionWeight>0</selectionWeight>
+    </GeneDef>
+
+</Defs>

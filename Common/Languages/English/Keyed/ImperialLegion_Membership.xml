@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_ImperialLegion_Enlist_Letter_Title>Enlisted in the Imperial Legion</ESCP_ImperialLegion_Enlist_Letter_Title>
+    <ESCP_ImperialLegion_Enlist_Letter_Label>A legate has entered the colony's name in the rolls. Your people now serve the Ruby Throne, and the Legion quartermasters will pay and supply them at any Imperial settlement.</ESCP_ImperialLegion_Enlist_Letter_Label>
+    <ESCP_ImperialLegion_Enlist_Button_Label>Enlist in the Legion</ESCP_ImperialLegion_Enlist_Button_Label>
+    <ESCP_ImperialLegion_Enlist_Button_Desc>Take the Emperor's coin and the Legion's oath. Pay is regular, the discipline is not optional, and the paperwork never ends.</ESCP_ImperialLegion_Enlist_Button_Desc>
+    <ESCP_ImperialLegion_Enlist_Requrements_Not_Satisfied>The Legion does not enlist strangers. Imperial standing: {0}.</ESCP_ImperialLegion_Enlist_Requrements_Not_Satisfied>
+    <ESCP_ImperialLegion_Enlisted_To_Hostile_Faction>The Legion will not take an oath from an enemy of the Empire.</ESCP_ImperialLegion_Enlisted_To_Hostile_Faction>
+    <ESCP_ImperialLegion_Enlisted_With_Key>Sworn to the Imperial Legion</ESCP_ImperialLegion_Enlisted_With_Key>
+    <ESCP_ImperialLegion_Missions_Label>Legion orders</ESCP_ImperialLegion_Missions_Label>
+    <ESCP_ImperialLegion_Missions_Desc>See what the quartermaster needs done.</ESCP_ImperialLegion_Missions_Desc>
+    <ESCP_ImperialLegion_Menu_Missions_Desc>Orders posted at the Legion fort. The paymaster settles up once a job is finished.</ESCP_ImperialLegion_Menu_Missions_Desc>
+    <ESCP_ImperialLegion_Menu_Missions_Select_Quest>Select a job</ESCP_ImperialLegion_Menu_Missions_Select_Quest>
+    <ESCP_ImperialLegion_Menu_Missions_Start_Quest>Accept</ESCP_ImperialLegion_Menu_Missions_Start_Quest>
+    <ESCP_ImperialLegion_Menu_Missions_Collect_Bounty>Collect</ESCP_ImperialLegion_Menu_Missions_Collect_Bounty>
+    <ESCP_ImperialLegion_Provisions_Label>Draw rations</ESCP_ImperialLegion_Provisions_Label>
+    <ESCP_ImperialLegion_Provisions_Desc>Hardtack, salted meat and field dressings from the Legion stores.</ESCP_ImperialLegion_Provisions_Desc>
+    <ESCP_ImperialLegion_Storage_Label>Legion strongbox</ESCP_ImperialLegion_Storage_Label>
+    <ESCP_ImperialLegion_Storage_Desc>Leave goods with the fort clerk and claim them at any Imperial post.</ESCP_ImperialLegion_Storage_Desc>
+    <ESCP_ImperialLegion_Resign_Menu_Text>Ask to be discharged from the Legion? The Empire does not think well of deserters.</ESCP_ImperialLegion_Resign_Menu_Text>
+    <ESCP_ImperialLegion_Resign_Letter_Title>Discharged from the Legion</ESCP_ImperialLegion_Resign_Letter_Title>
+    <ESCP_ImperialLegion_Resign_Letter_Label>The colony's name has been struck from the Legion rolls. Imperial officers will remember it.</ESCP_ImperialLegion_Resign_Letter_Label>
+    <ESCP_ImperialLegion_Resign_Button_Label>Request discharge</ESCP_ImperialLegion_Resign_Button_Label>
+    <ESCP_ImperialLegion_Resign_Button_Desc>Hand back the oath and the pay that comes with it.</ESCP_ImperialLegion_Resign_Button_Desc>
+    <ESCP_ImperialLegion_Kick_Out_Letter_Title>Struck from the Legion rolls</ESCP_ImperialLegion_Kick_Out_Letter_Title>
+    <ESCP_ImperialLegion_Kick_Out_Label_Title>The colony has fallen out of favor with the Empire, and the Legion no longer counts it among its own.</ESCP_ImperialLegion_Kick_Out_Label_Title>
+    <ESCP_ImperialLegion_Salary_Label>Draw Legion pay</ESCP_ImperialLegion_Salary_Label>
+    <ESCP_ImperialLegion_Salary_Desc>The paymaster pays in septims, on time, and wants a signature for every one.</ESCP_ImperialLegion_Salary_Desc>
+    <ESCP_ImperialLegion_Work_0_Label>Patrol the roads</ESCP_ImperialLegion_Work_0_Label>
+    <ESCP_ImperialLegion_Work_0_Desc>March the Gold Road with a Legion patrol. Dull, tiring and well paid.</ESCP_ImperialLegion_Work_0_Desc>
+    <ESCP_ImperialLegion_Work_1_Label>Drill on the parade ground</ESCP_ImperialLegion_Work_1_Label>
+    <ESCP_ImperialLegion_Work_1_Desc>A decanus with a loud voice teaches shield work and the short sword.</ESCP_ImperialLegion_Work_1_Desc>
+
+</LanguageData>

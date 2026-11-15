@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Imperial_UniqueCharacterBase" ParentName="ESCP_ImperialkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>200</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>99</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Imperial_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Emperor</defName>
+        <label>Emperor of Cyrodiil</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>MeleeWeapon</li>
+        </weaponTags>
+        <apparelTags>
+            <li>ESCP_Imperial_Noble</li>
+        </apparelTags>
+        <modExtensions>
+            <li Class="ESCP.Imperials.ImperialHeritageExtension">
+                <heritage>Colovian</heritage>
+            </li>
+        </modExtensions>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Imperial_Noble_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Imperial_Emperor</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Imperial_Civility>0</ESCP_Trait_Imperial_Civility>
+            <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Imperial_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Emperor_Rick</defName>
+        <label>wandering knight</label>
+        <weaponTags>
+            <li>MeleeWeapon</li>
+        </weaponTags>
+        <apparelTags>
+            <li>ESCP_Imperial_Noble</li>
+        </apparelTags>
+        <modExtensions>
+            <li Class="ESCP.Imperials.ImperialHeritageExtension">
+                <heritage>Colovian</heritage>
+            </li>
+        </modExtensions>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Colovian_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Imperial_Emperor_Rick</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Imperial_Civility>0</ESCP_Trait_Imperial_Civility>
+            <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

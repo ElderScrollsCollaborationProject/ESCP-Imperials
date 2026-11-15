@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_Imperial_VoiceEmperor</defName>
+        <label>Voice of the Emperor</label>
+        <description>The gift of Cyrodiil's bloodline expressed at its fullest, an authority that bypasses the instinct to fight and commands submission directly. The target's focus breaks, their will to resist falters, and for a moment they cannot bring themselves to continue. It works on almost everyone. It does not ask their permission.</description>
+        <iconPath>UI/Abilities/Focus</iconPath>
+        <aiCanUse>false</aiCanUse>
+        <hostile>true</hostile>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <statBases>
+            <Ability_Duration>30</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>true</requireLineOfSight>
+            <range>12</range>
+            <warmupTime>1.0</warmupTime>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetAnimals>false</canTargetAnimals>
+                <canTargetMechs>false</canTargetMechs>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>ESCP_Hediff_Imperial_VoiceEmperor</hediffDef>
+                <goodwillImpact>-10</goodwillImpact>
+            </li>
+        </comps>
+    </AbilityDef>
+
+</Defs>

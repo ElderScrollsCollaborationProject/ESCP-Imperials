@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Imperial"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Imperial City</li>
+                    <li>Chorrol</li>
+                    <li>Bruma</li>
+                    <li>Anvil</li>
+                    <li>Skingrad</li>
+                    <li>Kvatch</li>
+                    <li>Cheydinhal</li>
+                    <li>Leyawiin</li>
+                    <li>Bravil</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>TemperateSwamp</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

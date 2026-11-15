@@ -1,0 +1,2608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_City_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_City_Child</identifier>
+        <slot>Childhood</slot>
+        <title>City child</title>
+        <titleShort>City child</titleShort>
+        <description>[PAWN_nameDef] grew up in the streets and markets of the Imperial City, the gleaming heart of Cyrodiil. Surrounded by merchants, scholars, and legionnaires from birth, [PAWN_pronoun] learned early how to read people and talk [PAWN_possessive] way out of trouble.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Province_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Province_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Province child</title>
+        <titleShort>Province child</titleShort>
+        <description>[PAWN_nameDef] was raised on a farm or in a small town in the heartland of Cyrodiil. Hard work and self-reliance came naturally. [PAWN_pronoun] grew up hearing tales of the Legion and dreamed of seeing the Imperial City one day.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legion_Camp_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Legion_Camp_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion camp child</title>
+        <titleShort>Camp child</titleShort>
+        <description>[PAWN_nameDef] was born to an Imperial Legionnaire and spent [PAWN_possessive] childhood moving between garrison postings across Cyrodiil. [PAWN_pronoun] learned to drill before [PAWN_pronoun] could read, and could dismantle a blade before most children could tie their boots.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Dockside_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Dockside_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Dockside child</title>
+        <titleShort>Dockside child</titleShort>
+        <description>[PAWN_nameDef] grew up near the wharves of the Imperial City's waterfront district, watching merchant barges unload goods from distant provinces. [PAWN_pronoun] ran errands for traders, learned to spot a forged coin, and knew every back alley before [PAWN_pronoun] was ten.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Temple_Oblate</defName>
+        <identifier>ESCP_Backstory_Imperial_Temple_Oblate</identifier>
+        <slot>Childhood</slot>
+        <title>Temple oblate</title>
+        <titleShort>Temple oblate</titleShort>
+        <description>[PAWN_nameDef] was raised in service to the Nine Divines, sweeping shrine floors and memorizing prayers before [PAWN_pronoun] understood what they meant. The temple taught [PAWN_objective] patience, piety, and how to keep secrets.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Noble_Ward</defName>
+        <identifier>ESCP_Backstory_Imperial_Noble_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>Noble ward</title>
+        <titleShort>Noble ward</titleShort>
+        <description>[PAWN_nameDef] was fostered to a minor noble house in the Imperial City as a matter of political alliance. [PAWN_pronoun] ate at fine tables, attended private tutors, and never stopped feeling like a guest in someone else's home.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Imperial_Noble_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Colovian_Estate_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Colovian_Estate_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Estate child</title>
+        <titleShort>Estate child</titleShort>
+        <description>[PAWN_nameDef] was born on one of the great Colovian agricultural estates, surrounded by livestock, laborers, and the rhythms of the seasons. [PAWN_pronoun] could ride before [PAWN_pronoun] could write and knew how to break a horse by age twelve.</description>
+        <skillGains>
+            <Animals>3</Animals>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Miners_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Miners_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Miner's child</title>
+        <titleShort>Miner's child</titleShort>
+        <description>[PAWN_nameDef] grew up near the silver mines of the Colovian Highlands, breathing dust and learning the value of hard labor from birth. [PAWN_pronoun] hauled ore before [PAWN_pronoun] was old enough to be paid for it.</description>
+        <skillGains>
+            <Mining>3</Mining>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Arcane_Youth</defName>
+        <identifier>ESCP_Backstory_Imperial_Arcane_Youth</identifier>
+        <slot>Childhood</slot>
+        <title>Arcane apprentice</title>
+        <titleShort>Arcane apprentice</titleShort>
+        <description>[PAWN_nameDef] was identified as magically gifted in early childhood and sent to study under an associate member of the Mages Guild. [PAWN_pronoun] spent [PAWN_possessive] formative years memorizing theory, mixing reagents, and trying not to set anything on fire.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Caravan_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Caravan_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Caravan child</title>
+        <titleShort>Caravan child</titleShort>
+        <description>[PAWN_nameDef] was born to a family of traveling merchants and spent [PAWN_possessive] entire childhood on the roads of Cyrodiil. Every city was a temporary home and every stranger a potential customer. [PAWN_pronoun] learned more about people than any school could teach.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Forest_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Forest_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Forest child</title>
+        <titleShort>Forest child</titleShort>
+        <description>[PAWN_nameDef] grew up in the wooded reaches near Chorrol, where hunting was both sport and survival. [PAWN_pronoun] tracked game through the Great Forest before most children had seen beyond their village, and could read the land like a written page.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Scribe_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Scribe_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Scribe's apprentice</title>
+        <titleShort>Scribe's apprentice</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] childhood in the service of an Imperial administrator, copying legal documents and running messages between offices of state. [PAWN_pronoun] could write in four scripts by age nine and knew the layout of every ministry.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Garrison_Town_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Garrison_Town_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Garrison town child</title>
+        <titleShort>Garrison child</titleShort>
+        <description>[PAWN_nameDef] grew up in a town built around an Imperial Legion fort, where the rhythms of military life set the pace of everything. [PAWN_pronoun] watched soldiers drill at dawn, helped [PAWN_possessive] parents sell food and tools to the garrison, and knew the sound of a march-out by age six.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_River_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_River_Child</identifier>
+        <slot>Childhood</slot>
+        <title>River child</title>
+        <titleShort>River child</titleShort>
+        <description>[PAWN_nameDef] grew up along the Niben River, where the waterway was both road and larder. [PAWN_pronoun] fished, poled barges, and listened to the stories of traders drifting through on their way to market. The river taught [PAWN_objective] patience.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Guild_Errand_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Guild_Errand_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Guild errand-runner</title>
+        <titleShort>Guild errand-runner</titleShort>
+        <description>[PAWN_nameDef] ran errands for the local Fighters Guild hall from the time [PAWN_pronoun] could carry a message. [PAWN_pronoun] sharpened blades, oiled armor, and eavesdropped on contracts. By the time [PAWN_pronoun] was old enough to join, [PAWN_pronoun] already knew every member by name.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Alchemist_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Alchemist_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Alchemist's child</title>
+        <titleShort>Alchemist's child</titleShort>
+        <description>[PAWN_nameDef] was raised behind the counter of a Nibenean alchemist's shop, surrounded by strange smells and stranger ingredients. [PAWN_pronoun] learned to identify plants and reagents by sight and smell, and developed a taste for careful, methodical work.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Border_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Border_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Border child</title>
+        <titleShort>Border child</titleShort>
+        <description>[PAWN_nameDef] grew up near one of Cyrodiil's provincial borders, where the Legion's presence was thin and people settled disputes themselves. [PAWN_pronoun] learned early that self-reliance was not a virtue but a necessity.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Arena_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Arena_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Arena district child</title>
+        <titleShort>Arena district child</titleShort>
+        <description>[PAWN_nameDef] grew up in the shadow of the Imperial Arena, where the roar of the crowd was a daily backdrop. [PAWN_pronoun] sneaked into bouts, ran bets between spectators, and idolized the combatants. [PAWN_possessive] heroes were not scholars or senators but the ones who bled and won.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Masons_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Masons_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Mason's child</title>
+        <titleShort>Mason's child</titleShort>
+        <description>[PAWN_nameDef] was the child of a stonemason who built roads, bridges, and fortifications for the Empire. [PAWN_pronoun] grew up learning how things were put together and developed an instinctive understanding of structure, load, and material.</description>
+        <skillGains>
+            <Construction>4</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Street_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Street_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Street child</title>
+        <titleShort>Street child</titleShort>
+        <description>[PAWN_nameDef] survived [PAWN_possessive] early years on the streets of a large Imperial city, running with petty thieves and taking what [PAWN_pronoun] needed. [PAWN_pronoun] learned the value of observation, timing, and never drawing attention.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blacksmith_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Blacksmith_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Blacksmith's child</title>
+        <titleShort>Blacksmith's child</titleShort>
+        <description>[PAWN_nameDef] grew up working the bellows in [PAWN_possessive] parent's smithy, learning metal and fire from the moment [PAWN_pronoun] was strong enough to hold a hammer. Every Legion contract that came through the forge was a lesson in craft and demand.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Count_Household_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Count_Household_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Count's household child</title>
+        <titleShort>Count's household</titleShort>
+        <description>[PAWN_nameDef] grew up as a servant's child within the household of an Imperial Count, attending to the needs of the nobility and observing the machinery of governance from below. [PAWN_pronoun] learned courtesy, discretion, and how to be invisible when necessary.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Imperial_Noble_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Priest_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Priest_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Priest's child</title>
+        <titleShort>Priest's child</titleShort>
+        <description>[PAWN_nameDef] was raised by a healer of the Nine Divines, tending to the poor and the sick from an early age. [PAWN_pronoun] learned compassion and field medicine simultaneously, and came to understand that faith without service was merely performance.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Shepherd_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Shepherd_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Shepherd child</title>
+        <titleShort>Shepherd child</titleShort>
+        <description>[PAWN_nameDef] tended flocks on the rolling plains of western Cyrodiil under skies that went on forever. [PAWN_pronoun] spent long days alone with only animals for company, which suited [PAWN_objective] fine. [PAWN_pronoun] grew up independent and unhurried.</description>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Wayshrine_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Wayshrine_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Wayshrine keeper's child</title>
+        <titleShort>Wayshrine child</titleShort>
+        <description>[PAWN_nameDef] grew up alongside [PAWN_possessive] parent who maintained a wayshrine along one of Cyrodiil's sacred roads. [PAWN_pronoun] spoke with pilgrims from across Tamriel, heard their stories, and learned that the world was far larger and stranger than any map suggested.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Courier_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Courier_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Courier's child</title>
+        <titleShort>Courier's child</titleShort>
+        <description>[PAWN_nameDef] accompanied [PAWN_possessive] parent on message routes between Imperial cities, learning every road, pass, and shortcut in Cyrodiil before [PAWN_pronoun] was fully grown. [PAWN_pronoun] thought of the entire province as [PAWN_possessive] backyard.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Engineers_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Engineers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Engineer's child</title>
+        <titleShort>Engineer's child</titleShort>
+        <description>[PAWN_nameDef] grew up watching [PAWN_possessive] parent design siege equipment and fortifications for the Imperial Legion. [PAWN_pronoun] understood how to build things to last  and how to tear them down just as quickly.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Council_Clerk_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Council_Clerk_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Council clerk's child</title>
+        <titleShort>Council clerk's child</titleShort>
+        <description>[PAWN_nameDef] was raised in the Administrative Quarter of the Imperial City, [PAWN_possessive] parent a clerk to the Elder Council. [PAWN_pronoun] grew up surrounded by power [PAWN_pronoun] was never meant to hold, and learned that the people who wrote the records shaped history as much as those who made it.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Imperial_Noble_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Pit_Fighter_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Pit_Fighter_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Pit fighter's child</title>
+        <titleShort>Pit fighter's child</titleShort>
+        <description>[PAWN_nameDef] was raised by a veteran Arena combatant in the slums adjacent to the Imperial Arena District. [PAWN_possessive] childhood was full of bruises and lessons about pain. [PAWN_pronoun] learned to fight before [PAWN_pronoun] learned to read.</description>
+        <skillGains>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Fishmonger_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Fishmonger_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Fishmonger's child</title>
+        <titleShort>Fishmonger's child</titleShort>
+        <description>[PAWN_nameDef] grew up working the morning markets of a lakeside Imperial town, hauling catch, gutting fish, and calling prices before the sun was properly up. [PAWN_pronoun] developed a salesperson's tongue and a laborer's back.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Mill_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Mill_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Mill child</title>
+        <titleShort>Mill child</titleShort>
+        <description>[PAWN_nameDef] grew up working the grain mill that supplied bread to [PAWN_possessive] farming community. Steady, repetitive effort was not a burden but a comfort. [PAWN_pronoun] learned that reliable people were rarer and more valuable than clever ones.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Highwayman_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Highwayman_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Highwayman's child</title>
+        <titleShort>Highwayman's child</titleShort>
+        <description>[PAWN_nameDef] was born outside the law, raised by a parent who robbed Imperial couriers on the back roads of Colovia. [PAWN_pronoun] grew up knowing how to survive without permission, and how to read a road for ambush and escape in equal measure.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blades_Watch_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Blades_Watch_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Blades watch-child</title>
+        <titleShort>Blades watch-child</titleShort>
+        <description>[PAWN_nameDef] was the child of a Blades operative stationed at a remote inn on the road network. [PAWN_pronoun] grew up watching strangers, learning to remember faces, and understanding that everything had a double meaning. [PAWN_pronoun] never asked questions aloud that [PAWN_pronoun] had already answered silently.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Imperial_Blades_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Palace_Servant_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Palace_Servant_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Palace servant's child</title>
+        <titleShort>Palace servant's child</titleShort>
+        <description>[PAWN_nameDef] grew up in the servants' quarters of the White-Gold Tower, invisible to the Emperor but present for everything. [PAWN_pronoun] learned the layout of power by proximity, and understood that those who served the throne saw it more clearly than those who sat upon it.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Imperial_Emperor_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legion_Orphan</defName>
+        <identifier>ESCP_Backstory_Imperial_Legion_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Legion orphan</title>
+        <titleShort>Legion orphan</titleShort>
+        <description>[PAWN_nameDef] lost [PAWN_possessive] parents to a border campaign and was raised collectively by the surviving members of [PAWN_possessive] parent's Legion century. [PAWN_pronoun] became the unit mascot, then its errand-runner, then its youngest recruit.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Inn_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Inn_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Inn child</title>
+        <titleShort>Inn child</titleShort>
+        <description>[PAWN_nameDef] grew up in [PAWN_possessive] family's roadside inn, pouring drinks and hauling firewood for travelers from across Tamriel. [PAWN_pronoun] heard a thousand stories and learned that most people, when properly fed and warm, were willing to say far more than they intended.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Vintner_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Vintner_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Vintner's child</title>
+        <titleShort>Vintner's child</titleShort>
+        <description>[PAWN_nameDef] grew up amid grapevines on a Colovian hillside, helping crush harvest and bottle the wine that graced noble tables across the Empire. [PAWN_pronoun] learned patience, the measure of quality, and how much a bottle was worth to the right buyer.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Lumber_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Lumber_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Lumber child</title>
+        <titleShort>Lumber child</titleShort>
+        <description>[PAWN_nameDef] was raised among the logging camps of the Great Forest, helping fell timber that built Imperial forts and bridges. [PAWN_pronoun] grew up strong, practical, and deeply familiar with the patience required to bring something large down cleanly.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Tax_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Tax_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tax collector's child</title>
+        <titleShort>Tax collector's child</titleShort>
+        <description>[PAWN_nameDef] accompanied [PAWN_possessive] parent on Imperial tax collection rounds through Cyrodiil's counties. [PAWN_pronoun] learned to assess wealth by sight, to be firm without being cruel, and that the law was only as effective as its enforcement.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Herder_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Herder_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Herder child</title>
+        <titleShort>Herder child</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] youth moving cattle across the open pastures of western Cyrodiil, sleeping under stars and living weeks at a time without seeing a building larger than a barn. [PAWN_pronoun] needs few comforts and asks for fewer.</description>
+        <skillGains>
+            <Animals>3</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Guild_Apprentice_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Guild_Apprentice_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Guild apprentice</title>
+        <titleShort>Guild apprentice</titleShort>
+        <description>[PAWN_nameDef] was bound as an apprentice to a Nibenean craftsmen's guild at age eight. [PAWN_pronoun] swept floors, fetched materials, and watched masters work, slowly learning what no book could fully convey. By the time [PAWN_pronoun] was grown, [PAWN_possessive] hands knew more than [PAWN_possessive] head.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Monastery_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Monastery_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Monastery child</title>
+        <titleShort>Monastery child</titleShort>
+        <description>[PAWN_nameDef] was raised in a closed religious community dedicated to one of the Nine Divines, learning liturgy, gardening, healing, and the value of quiet. [PAWN_pronoun] left [PAWN_possessive] walls eventually, but never fully lost the monastery's rhythms.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Tannery_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Tannery_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tannery child</title>
+        <titleShort>Tannery child</titleShort>
+        <description>[PAWN_nameDef] grew up working alongside [PAWN_possessive] family in a Colovian tannery, curing hides and supplying leather to saddle-makers and armorers. The work was hard and unpleasant in warm weather. [PAWN_pronoun] did it anyway.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Boat_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Boat_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Boat child</title>
+        <titleShort>Boat child</titleShort>
+        <description>[PAWN_nameDef] grew up aboard a family barge plying the Niben River, spending [PAWN_possessive] childhood on moving water. [PAWN_pronoun] learned to navigate by stars and current, and found dry land vaguely unsatisfying by comparison.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Market_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Market_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Market child</title>
+        <titleShort>Market child</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] childhood in the great market of the Imperial City, working stalls and running change. [PAWN_pronoun] learned merchant arithmetic before academic numbers and social reading before letters. Commerce was [PAWN_possessive] first language.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Quarry_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Quarry_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Quarry child</title>
+        <titleShort>Quarry child</titleShort>
+        <description>[PAWN_nameDef] grew up alongside a working stone quarry in the Colovian hills, hauling rubble and watching skilled cutters shape the raw material of the Empire. [PAWN_pronoun] developed early an appreciation for how long good things take to build properly.</description>
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Tailor_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Tailor_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tailor's child</title>
+        <titleShort>Tailor's child</titleShort>
+        <description>[PAWN_nameDef] was raised in a Nibenean tailor's workshop, threading needles before [PAWN_pronoun] was tall enough to reach the counter. [PAWN_pronoun] learned to read quality in fabric and cut before [PAWN_pronoun] understood the difference between what things were worth and what they cost.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Ferry_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Ferry_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Ferry child</title>
+        <titleShort>Ferry child</titleShort>
+        <description>[PAWN_nameDef] worked the river crossings with [PAWN_possessive] family, helping pole travelers across the Niben's tributaries. [PAWN_pronoun] met more strangers in [PAWN_possessive] first ten years than most people encountered in a lifetime and learned that none of them were quite what they appeared.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Charcoal_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Charcoal_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Charcoal burner's child</title>
+        <titleShort>Charcoal burner's child</titleShort>
+        <description>[PAWN_nameDef] grew up in the forest clearings of Colovia where [PAWN_possessive] family tended slow-burning charcoal kilns for weeks at a time. The isolation was total and the work was constant. [PAWN_pronoun] learned patience and self-sufficiency in equal, very large measures.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Colovian_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Fence_Child</defName>
+        <identifier>ESCP_Backstory_Imperial_Fence_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Fence's child</title>
+        <titleShort>Fence's child</titleShort>
+        <description>[PAWN_nameDef] was raised by a parent who quietly moved stolen goods through a legitimate-looking shop front. [PAWN_pronoun] learned to keep accounts, keep quiet, and tell the difference between someone who was buying and someone who was scouting. The line was thin and crossing it was expensive.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Child</li>
+            <li>ESCP_Backstory_Nibenean_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legionnaire</defName>
+        <identifier>ESCP_Backstory_Imperial_Legionnaire</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial Legionnaire</title>
+        <titleShort>Legionnaire</titleShort>
+        <description>[PAWN_nameDef] served in the Imperial Legion, the most disciplined fighting force in all of Tamriel. Years of marching, drilling, and frontier campaigns honed [PAWN_objective] into a reliable and deadly soldier.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <forcedTraits>
+            <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
+        </forcedTraits>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legatus</defName>
+        <identifier>ESCP_Backstory_Imperial_Legatus</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial Legatus</title>
+        <titleShort>Legatus</titleShort>
+        <description>[PAWN_nameDef] rose through the ranks of the Imperial Legion to command a cohort. [PAWN_pronoun] learned to balance battlefield authority with the political realities of Imperial governance, earning the respect of soldiers and senators alike.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Imperial_Legion_Legatus</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <forcedTraits>
+            <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
+        </forcedTraits>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Merchant</defName>
+        <identifier>ESCP_Backstory_Imperial_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial merchant</title>
+        <titleShort>Merchant</titleShort>
+        <description>[PAWN_nameDef] ran a trading post along the Gold Road, dealing in goods from every corner of Tamriel. [PAWN_pronoun] had a talent for knowing what people wanted before they asked, and what things were worth before anyone named a price.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <forcedTraits>
+            <ESCP_Trait_Imperial_Civility>0</ESCP_Trait_Imperial_Civility>
+        </forcedTraits>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Diplomat</defName>
+        <identifier>ESCP_Backstory_Imperial_Diplomat</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial diplomat</title>
+        <titleShort>Diplomat</titleShort>
+        <description>[PAWN_nameDef] served the Elder Council as an ambassador to foreign courts. [PAWN_pronoun] spent years brokering alliances, defusing crises, and sitting across the table from people who wanted [PAWN_objective] dead. [PAWN_pronoun] never lost a negotiation.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Scholar</defName>
+        <identifier>ESCP_Backstory_Imperial_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial scholar</title>
+        <titleShort>Scholar</titleShort>
+        <description>[PAWN_nameDef] studied at the Arcane University or one of the great libraries of the Imperial City, dedicating [PAWN_possessive] life to the accumulation and organization of knowledge. [PAWN_pronoun] could recite eras of history and synthesize alchemical compounds in equal measure.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Medicine>4</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <forcedTraits>
+            <ESCP_Trait_Imperial_Scholar>0</ESCP_Trait_Imperial_Scholar>
+        </forcedTraits>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Battlemage</defName>
+        <identifier>ESCP_Backstory_Imperial_Battlemage</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial Battlemage</title>
+        <titleShort>Battlemage</titleShort>
+        <description>[PAWN_nameDef] served in the Imperial Battlemage corps, augmenting Legion campaigns with arcane firepower. The dual demands of scholarship and soldiery left [PAWN_objective] with few equals in either field and fewer peers in both.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+            <Medicine>4</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <forcedTraits>
+            <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
+        </forcedTraits>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Farmer</defName>
+        <identifier>ESCP_Backstory_Imperial_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial farmer</title>
+        <titleShort>Farmer</titleShort>
+        <description>[PAWN_nameDef] worked the estates of western Cyrodiil, growing the grain that fed the Legion's campaigns. Hard country bred hard people - [PAWN_pronoun] knew the land intimately, its seasons, its soil, its animals, and asked for nothing in return except a fair harvest.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>4</Animals>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Auxiliary_Scout</defName>
+        <identifier>ESCP_Backstory_Imperial_Auxiliary_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion auxiliary scout</title>
+        <titleShort>Auxiliary scout</titleShort>
+        <description>[PAWN_nameDef] rode ahead of Legion columns as a light cavalry scout, mapping terrain and reporting enemy positions. [PAWN_pronoun] spent more nights in the open than under a roof and trusted [PAWN_possessive] horse more than most people.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Animals>4</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Siege_Engineer</defName>
+        <identifier>ESCP_Backstory_Imperial_Siege_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion siege engineer</title>
+        <titleShort>Siege engineer</titleShort>
+        <description>[PAWN_nameDef] designed and operated siege equipment for the Imperial Legion, bringing down walls and building them back up on Imperial terms. [PAWN_pronoun] approached warfare as a logistical problem.</description>
+        <skillGains>
+            <Construction>6</Construction>
+            <Intellectual>4</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legion_Medic</defName>
+        <identifier>ESCP_Backstory_Imperial_Legion_Medic</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion field medic</title>
+        <titleShort>Legion medic</titleShort>
+        <description>[PAWN_nameDef] served as a combat medic attached to a Legion cohort, treating wounds under fire while everyone else was trying to create them. [PAWN_pronoun] learned to work fast, stay calm, and triage without emotion.</description>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Praetorian</defName>
+        <identifier>ESCP_Backstory_Imperial_Praetorian</identifier>
+        <slot>Adulthood</slot>
+        <title>Praetorian guard</title>
+        <titleShort>Praetorian</titleShort>
+        <description>[PAWN_nameDef] served in the personal guard of a senior Imperial official, selected from the Legion's finest on the basis of record and temperament. [PAWN_pronoun] stood watch over power and learned to read a room for threat before anything else.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Quartermaster</defName>
+        <identifier>ESCP_Backstory_Imperial_Quartermaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <description>[PAWN_nameDef] managed supply chains for a Legion cohort, ensuring that food, equipment, and coin reached the front in right measure at the right time. [PAWN_pronoun] understood that most battles were decided in the logistics tent long before the fighting started.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Fort_Commander</defName>
+        <identifier>ESCP_Backstory_Imperial_Fort_Commander</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial fort commander</title>
+        <titleShort>Fort commander</titleShort>
+        <description>[PAWN_nameDef] commanded a border fortress for the Imperial Legion, responsible for garrison readiness, local security, and the welfare of the territory under [PAWN_possessive] watch. The responsibility suited [PAWN_objective].</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+            <Construction>4</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legion_Chaplain</defName>
+        <identifier>ESCP_Backstory_Imperial_Legion_Chaplain</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion chaplain</title>
+        <titleShort>Legion chaplain</titleShort>
+        <description>[PAWN_nameDef] served as a priest of the Nine Divines attached to a Legion cohort, officiating over prayer, burial, and the small rites that kept soldiers sane on long campaigns. [PAWN_pronoun] carried a sword but preferred words.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Arena_Champion</defName>
+        <identifier>ESCP_Backstory_Imperial_Arena_Champion</identifier>
+        <slot>Adulthood</slot>
+        <title>Arena Grand Champion</title>
+        <titleShort>Arena champion</titleShort>
+        <description>[PAWN_nameDef] rose through every class of the Imperial Arena to claim the title of Grand Champion. The crowd loved [PAWN_objective]. The other gladiators respected  and feared  [PAWN_objective]. [PAWN_pronoun] learned that celebrity and danger were the same thing wearing different armor.</description>
+        <skillGains>
+            <Melee>10</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blades_Agent</defName>
+        <identifier>ESCP_Backstory_Imperial_Blades_Agent</identifier>
+        <slot>Adulthood</slot>
+        <title>Blades agent</title>
+        <titleShort>Blades agent</titleShort>
+        <description>[PAWN_nameDef] operated as a field agent of the Blades, the Emperor's intelligence service, embedded in foreign courts under assumed identities. [PAWN_pronoun] gathered information, eliminated threats, and asked no questions that weren't strictly necessary.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>6</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Blades</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blades_Commander</defName>
+        <identifier>ESCP_Backstory_Imperial_Blades_Commander</identifier>
+        <slot>Adulthood</slot>
+        <title>Blades commander</title>
+        <titleShort>Blades commander</titleShort>
+        <description>[PAWN_nameDef] commanded a Blades garrison at a remote bastion, responsible for the training and deployment of operatives across an entire region. [PAWN_pronoun] ran [PAWN_possessive] agents like a general and [PAWN_possessive] household like a monastery.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Blades</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blades_Archivist</defName>
+        <identifier>ESCP_Backstory_Imperial_Blades_Archivist</identifier>
+        <slot>Adulthood</slot>
+        <title>Blades archivist</title>
+        <titleShort>Blades archivist</titleShort>
+        <description>[PAWN_nameDef] managed the Blades' intelligence archive, processing field reports, maintaining dossiers, and identifying patterns that individual agents couldn't see from the field. [PAWN_pronoun] knew more secrets than anyone and said less than most.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>4</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Blades</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Blades_Trainer</defName>
+        <identifier>ESCP_Backstory_Imperial_Blades_Trainer</identifier>
+        <slot>Adulthood</slot>
+        <title>Blades combat trainer</title>
+        <titleShort>Blades trainer</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] career preparing new Blades recruits for field work, drilling them in swordsmanship, disguise, and tradecraft. [PAWN_pronoun] could see a fight's outcome in the first second and spent the rest of [PAWN_possessive] life teaching others to see the same.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Blades</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Palace_Chamberlain</defName>
+        <identifier>ESCP_Backstory_Imperial_Palace_Chamberlain</identifier>
+        <slot>Adulthood</slot>
+        <title>Palace chamberlain</title>
+        <titleShort>Palace chamberlain</titleShort>
+        <description>[PAWN_nameDef] served as chamberlain to the Emperor's household, overseeing the administrative and domestic operations of the White-Gold Tower. [PAWN_pronoun] managed hundreds of staff, enormous budgets, and the private moods of the most powerful person in Tamriel.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Emperor</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Spymaster</defName>
+        <identifier>ESCP_Backstory_Imperial_Spymaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial spymaster</title>
+        <titleShort>Spymaster</titleShort>
+        <description>[PAWN_nameDef] served as a senior intelligence official of the Empire, directing networks of agents across Tamriel in service of the Emperors will. [PAWN_pronoun] was never in a room by accident and never said anything without purpose.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Emperor</li>
+            <li>ESCP_Backstory_Imperial_Blades</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Emperors_Advisor</defName>
+        <identifier>ESCP_Backstory_Imperial_Emperors_Advisor</identifier>
+        <slot>Adulthood</slot>
+        <title>Emperor's advisor</title>
+        <titleShort>Emperor's advisor</titleShort>
+        <description>[PAWN_nameDef] sat at the Emperor's right hand during the great councils, offering counsel that shaped policy across Tamriel. [PAWN_pronoun] held no title of conquest but wielded influence that outlasted most armies. [PAWN_pronoun] chose words with the precision of a surgeon.</description>
+        <skillGains>
+            <Social>10</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Emperor</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Elder_Council_Senator</defName>
+        <identifier>ESCP_Backstory_Imperial_Elder_Council_Senator</identifier>
+        <slot>Adulthood</slot>
+        <title>Elder Council senator</title>
+        <titleShort>Senator</titleShort>
+        <description>[PAWN_nameDef] held a seat on the Elder Council, the great deliberative body of the Empire. [PAWN_pronoun] navigated faction warfare, forged coalitions, and occasionally did what was right when the opportunity arose. [PAWN_pronoun] rarely trusted anyone entirely, including [PAWN_possessive]self.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Emperor</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legate</defName>
+        <identifier>ESCP_Backstory_Imperial_Legate</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial Legate</title>
+        <titleShort>Legate</titleShort>
+        <description>[PAWN_nameDef] was appointed Legate of a frontier province, serving as the Emperor's personal representative with authority over civil governance and Legion forces alike. [PAWN_pronoun] held that authority with both hands and the weight of it shaped [PAWN_objective] permanently.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>4</Melee>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Emperor</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Emperor_Rick</defName>
+        <identifier>ESCP_Backstory_Imperial_Emperor_Rick</identifier>
+        <slot>Adulthood</slot>
+        <title>Emperor of Anvil</title>
+        <titleShort>Emperor</titleShort>
+        <description>[PAWN_nameDef] was a Colovian soldier who climbed the Legion's ranks on skill, charm and a real head for logistics, then appointed [PAWN_objective]self Emperor of Anvil. Anvil has not been told. Neither has the actual Emperor. The crown, the court and the provinces exist only in [PAWN_possessive] head, and [PAWN_pronoun] now wanders the frontier as a knight errant, issuing decrees to anyone who will stand still. [PAWN_pronoun] considers mopping floors and dressing wounds to be work for lesser subjects.</description>
+        <skillGains>
+            <Melee>9</Melee>
+            <Social>7</Social>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <workDisables>Cleaning, Caring</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Emperor_Rick</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Conjurer</defName>
+        <identifier>ESCP_Backstory_Imperial_Conjurer</identifier>
+        <slot>Adulthood</slot>
+        <title>Mages Guild conjurer</title>
+        <titleShort>Conjurer</titleShort>
+        <description>[PAWN_nameDef] attained the rank of Conjurer within the Mages Guild, specializing in the summoning and binding of Daedric entities to practical purpose. [PAWN_pronoun] treated the work with clinical precision and considerable caution.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Medicine>4</Medicine>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Warlock</defName>
+        <identifier>ESCP_Backstory_Imperial_Warlock</identifier>
+        <slot>Adulthood</slot>
+        <title>Warlock of the Arcane University</title>
+        <titleShort>Warlock</titleShort>
+        <description>[PAWN_nameDef] achieved the rank of Warlock at the Arcane University after years of study that made [PAWN_possessive] social life nonexistent and [PAWN_possessive] knowledge of destruction magic unmatched. [PAWN_pronoun] was tolerated rather than liked by [PAWN_possessive] peers.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Shooting>6</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Alchemist</defName>
+        <identifier>ESCP_Backstory_Imperial_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>[PAWN_nameDef] operated a respected apothecary in a major Nibenean city, refining potions that found their way into Legion medical kits and noble pantries alike. [PAWN_pronoun] never had a formula [PAWN_pronoun] couldn't improve with another hour of work.</description>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Plants>4</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Enchanter</defName>
+        <identifier>ESCP_Backstory_Imperial_Enchanter</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial enchanter</title>
+        <titleShort>Enchanter</titleShort>
+        <description>[PAWN_nameDef] specialized in the binding of magical properties to tools and weapons, a craft that demanded both arcane knowledge and the patience of a master craftsman. [PAWN_pronoun] charged well for [PAWN_possessive] work and delivered everything promised.</description>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Restoration_Healer</defName>
+        <identifier>ESCP_Backstory_Imperial_Restoration_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>Restoration healer</title>
+        <titleShort>Restoration healer</titleShort>
+        <description>[PAWN_nameDef] dedicated [PAWN_possessive] life to the school of Restoration, serving as a healer at temples and military hospitals across Cyrodiil. [PAWN_pronoun] believed that magic's highest purpose was mending what violence broke.</description>
+        <skillGains>
+            <Medicine>10</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Mystic</defName>
+        <identifier>ESCP_Backstory_Imperial_Mystic</identifier>
+        <slot>Adulthood</slot>
+        <title>Nibenean mystic</title>
+        <titleShort>Mystic</titleShort>
+        <description>[PAWN_nameDef] retreated from civic life and devoted [PAWN_possessive]self to esoteric study in one of the more reclusive Nibenean traditions, emerging periodically with insights that others found either profound or unsettling, rarely both.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Mage</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Count</defName>
+        <identifier>ESCP_Backstory_Imperial_Count</identifier>
+        <slot>Adulthood</slot>
+        <title>Count of Cyrodiil</title>
+        <titleShort>Count</titleShort>
+        <description>[PAWN_nameDef] held the title of Count over one of Cyrodiil's eight counties, governing thousands of subjects and answering only to the Emperor. [PAWN_pronoun] learned that ruling was less about power than about managing people who each believed they deserved more of it.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Magistrate</defName>
+        <identifier>ESCP_Backstory_Imperial_Magistrate</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial magistrate</title>
+        <titleShort>Magistrate</titleShort>
+        <description>[PAWN_nameDef] presided over Imperial courts in a major Cyrodiilian city, adjudicating disputes, condemning criminals, and occasionally having to explain to very powerful people why the law applied to them as well. [PAWN_pronoun] was rarely popular and always right.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Administrator</defName>
+        <identifier>ESCP_Backstory_Imperial_Administrator</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial administrator</title>
+        <titleShort>Administrator</titleShort>
+        <description>[PAWN_nameDef] served as a senior administrator within the Imperial civil service, managing taxation, law enforcement, and infrastructure development across a county. [PAWN_pronoun] processed more reports in a decade than most people read in a lifetime.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>4</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Caravan_Master</defName>
+        <identifier>ESCP_Backstory_Imperial_Caravan_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>Caravan master</title>
+        <titleShort>Caravan master</titleShort>
+        <description>[PAWN_nameDef] led long-haul trade expeditions across Cyrodiil and beyond, managing guards, merchants, and animals across hundreds of miles of dangerous road. [PAWN_pronoun] knew the price of everything and the risk of everything else.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Animals>4</Animals>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Banker</defName>
+        <identifier>ESCP_Backstory_Imperial_Banker</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial banker</title>
+        <titleShort>Banker</titleShort>
+        <description>[PAWN_nameDef] managed a house of accounts in the Imperial City's commercial quarter, extending credit to nobles, merchants, and the Legion alike. [PAWN_pronoun] understood that money was not wealth but merely a representation of trust, and acted accordingly.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>6</Social>
+        </skillGains>
+        <workDisables>ManualDumb, ManualSkilled</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Jeweller</defName>
+        <identifier>ESCP_Backstory_Imperial_Jeweller</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial jeweler</title>
+        <titleShort>Jeweler</titleShort>
+        <description>[PAWN_nameDef] crafted ornamental goods for the Imperial nobility, working in gold, silver, and precious stones sourced from across Tamriel. [PAWN_pronoun] had steady hands, a sharp eye, and no patience whatsoever for imprecision.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Spice_Trader</defName>
+        <identifier>ESCP_Backstory_Imperial_Spice_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial spice trader</title>
+        <titleShort>Spice trader</titleShort>
+        <description>[PAWN_nameDef] built a modest fortune dealing in exotic spices and alchemical ingredients imported from Elsweyr and beyond. [PAWN_pronoun] knew when a shipment was real and when it wasn't, and which contacts to trust and which to carry a blade around.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Plants>4</Plants>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Colovian_Armourer</defName>
+        <identifier>ESCP_Backstory_Imperial_Colovian_Armourer</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian armorer</title>
+        <titleShort>Colovian armorer</titleShort>
+        <description>[PAWN_nameDef] operated a weapons and armor forge in a Colovian city, supplying Legion equipment under contract. [PAWN_pronoun] took pride in every piece and could tell a blade's quality blindfolded by its balance alone.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Innkeeper</defName>
+        <identifier>ESCP_Backstory_Imperial_Innkeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial innkeeper</title>
+        <titleShort>Innkeeper</titleShort>
+        <description>[PAWN_nameDef] ran a roadside inn on one of Cyrodiil's major trade routes, feeding and housing an endless stream of travelers. [PAWN_pronoun] knew everyone's business within a week of their arrival and most of Tamriel's news before it reached the capital.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Cooking>4</Cooking>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Legion_Veteran</defName>
+        <identifier>ESCP_Backstory_Imperial_Legion_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion veteran</title>
+        <titleShort>Legion veteran</titleShort>
+        <description>[PAWN_nameDef] served [PAWN_possessive] full term in the Imperial Legion and came home with a modest pension and a lifetime of hard experience. [PAWN_pronoun] was done with war but not with discipline, and [PAWN_pronoun] kept both.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Road_Warden</defName>
+        <identifier>ESCP_Backstory_Imperial_Road_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial road warden</title>
+        <titleShort>Road warden</titleShort>
+        <description>[PAWN_nameDef] patrolled the Imperial road network, protecting travelers from bandits, clearing obstacles, and reporting road damage to the civil engineers. [PAWN_pronoun] walked more miles than most people dreamed of covering and knew every wayshrine in Cyrodiil by heart.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Architect</defName>
+        <identifier>ESCP_Backstory_Imperial_Architect</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial architect</title>
+        <titleShort>Architect</titleShort>
+        <description>[PAWN_nameDef] designed public buildings, roads, and aqueducts for the Imperial civil service, working to bring the Empire's distinctive Romanesque order to the far corners of Cyrodiil. [PAWN_pronoun] counted [PAWN_possessive] best work in structures that would outlast [PAWN_objective] by centuries.</description>
+        <skillGains>
+            <Construction>8</Construction>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Physician</defName>
+        <identifier>ESCP_Backstory_Imperial_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial physician</title>
+        <titleShort>Physician</titleShort>
+        <description>[PAWN_nameDef] practiced medicine in a major Imperial city, attending to patients ranging from dockworkers to minor nobles. [PAWN_pronoun] believed in evidence, observation, and the occasional course of treatment that required a patient to simply rest and stop making things worse.</description>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Hunter</defName>
+        <identifier>ESCP_Backstory_Imperial_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial hunter</title>
+        <titleShort>Imperial hunter</titleShort>
+        <description>[PAWN_nameDef] worked as a professional hunter, supplying game to markets and noble estates across Cyrodiil. [PAWN_pronoun] knew the Great Forest's geography better than most maps and could track a wounded animal for two days without sleep.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Animals>4</Animals>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Chronicler</defName>
+        <identifier>ESCP_Backstory_Imperial_Chronicler</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial chronicler</title>
+        <titleShort>Chronicler</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] career documenting the history of the Third Era, traveling to battlefields, courts, and ruins to gather primary accounts. [PAWN_pronoun] believed the truth mattered even when it was inconvenient, which was most of the time.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Prison_Warden</defName>
+        <identifier>ESCP_Backstory_Imperial_Prison_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial prison warden</title>
+        <titleShort>Prison warden</titleShort>
+        <description>[PAWN_nameDef] oversaw the Imperial Prison, the Empire's most secure holding facility, managing everything from petty thieves to political prisoners. [PAWN_pronoun] took the work seriously and personally, which made [PAWN_objective] very good at it and not particularly pleasant company.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>4</Melee>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Colovian_Rancher</defName>
+        <identifier>ESCP_Backstory_Imperial_Colovian_Rancher</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian rancher</title>
+        <titleShort>Colovian rancher</titleShort>
+        <description>[PAWN_nameDef] ran a large cattle operation in western Cyrodiil, managing land, workers, and livestock through droughts, raids, and Legion requisitioning. [PAWN_pronoun] kept the ranch going through stubbornness that bordered on the remarkable.</description>
+        <skillGains>
+            <Animals>6</Animals>
+            <Plants>4</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Temple_Priest</defName>
+        <identifier>ESCP_Backstory_Imperial_Temple_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Temple priest</title>
+        <titleShort>Temple priest</titleShort>
+        <description>[PAWN_nameDef] served the Nine Divines as an ordained priest, ministering to a congregation in a Cyrodiilian city. [PAWN_pronoun] heard confessions, administered last rites, and spent considerable energy convincing people to make better choices before it came to that.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Courier</defName>
+        <identifier>ESCP_Backstory_Imperial_Courier</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial courier</title>
+        <titleShort>Imperial courier</titleShort>
+        <description>[PAWN_nameDef] carried sealed dispatches for the Imperial administrative network, crossing Cyrodiil at all hours regardless of weather, season, or the various threats that loitered alongside the roads. [PAWN_pronoun] delivered everything on time and intact.</description>
+        <skillGains>
+            <Animals>4</Animals>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Herbalist</defName>
+        <identifier>ESCP_Backstory_Imperial_Herbalist</identifier>
+        <slot>Adulthood</slot>
+        <title>Nibenean herbalist</title>
+        <titleShort>Herbalist</titleShort>
+        <description>[PAWN_nameDef] gathered and sold medicinal herbs from the forests and swamps of the Nibenay Basin, supplying apothecaries and healers across the region. [PAWN_pronoun] knew which plants cured and which killed and treated both with equal respect.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Medicine>4</Medicine>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Gladiator_Instructor</defName>
+        <identifier>ESCP_Backstory_Imperial_Gladiator_Instructor</identifier>
+        <slot>Adulthood</slot>
+        <title>Gladiator instructor</title>
+        <titleShort>Gladiator instructor</titleShort>
+        <description>[PAWN_nameDef] trained new Arena recruits, drilling their footwork, conditioning their bodies, and breaking down their bad habits with the blunt efficiency of someone who had survived the Arena floor. [PAWN_pronoun] had bled for the crowd and had no desire to do so again.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Sailor</defName>
+        <identifier>ESCP_Backstory_Imperial_Sailor</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial sailor</title>
+        <titleShort>Imperial sailor</titleShort>
+        <description>[PAWN_nameDef] crewed Imperial vessels across the inland waterways and coastal routes of Cyrodiil, transporting goods and troops to wherever the Emperor needed them. [PAWN_pronoun] trusted the current, distrusted overland routes, and smelled faintly of river water no matter how long [PAWN_pronoun] spent ashore.</description>
+        <skillGains>
+            <Animals>4</Animals>
+            <Construction>2</Construction>
+            <Social>2</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Colovian_Blacksmith</defName>
+        <identifier>ESCP_Backstory_Imperial_Colovian_Blacksmith</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian blacksmith</title>
+        <titleShort>Colovian blacksmith</titleShort>
+        <description>[PAWN_nameDef] operated a smithy in a Colovian town, forging tools, blades, and horseshoes for the community and occasional weapons orders from the Legion. [PAWN_pronoun] worked dawn to dusk and took pride in a clean edge and honest price.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Construction>2</Construction>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Drill_Sergeant</defName>
+        <identifier>ESCP_Backstory_Imperial_Drill_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion drill sergeant</title>
+        <titleShort>Drill sergeant</titleShort>
+        <description>[PAWN_nameDef] spent twenty years making raw recruits into Imperial Legionnaires, a task that required equal parts patience, volume, and willingness to demonstrate the correct technique personally. [PAWN_pronoun] built soldiers the Empire trusted with its borders.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Legion</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Surveyor</defName>
+        <identifier>ESCP_Backstory_Imperial_Surveyor</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial surveyor</title>
+        <titleShort>Surveyor</titleShort>
+        <description>[PAWN_nameDef] charted land and planned infrastructure for the Imperial civil service, spending months in remote terrain to measure, record, and report. [PAWN_pronoun] was precise, meticulous, and entirely comfortable working alone in wilderness for extended periods.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Construction>4</Construction>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Chef</defName>
+        <identifier>ESCP_Backstory_Imperial_Chef</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial court chef</title>
+        <titleShort>Court chef</titleShort>
+        <description>[PAWN_nameDef] served in the kitchens of a Count's hall, producing elaborate feasts for political events that required as much diplomacy as culinary skill. [PAWN_pronoun] knew that a bad meal could end a negotiation faster than a bad deal.</description>
+        <skillGains>
+            <Cooking>8</Cooking>
+            <Social>2</Social>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Noble</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Woodsman</defName>
+        <identifier>ESCP_Backstory_Imperial_Woodsman</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian woodsman</title>
+        <titleShort>Colovian woodsman</titleShort>
+        <description>[PAWN_nameDef] worked as a timber cutter, ranger, and pest controller in the forestlands of western Cyrodiil. [PAWN_pronoun] felled trees, managed wildlife, and kept the lumber contracts that built half the Empire flowing reliably. Words were for people who didn't know how to work.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>4</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Notary</defName>
+        <identifier>ESCP_Backstory_Imperial_Notary</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial notary</title>
+        <titleShort>Notary</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] career authenticating deeds, contracts, and inheritance claims for the Imperial civil service. [PAWN_pronoun] had witnessed more human drama across a desk than most people experienced in a lifetime, and remained professionally impassive throughout all of it.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Tax_Collector</defName>
+        <identifier>ESCP_Backstory_Imperial_Tax_Collector</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial tax collector</title>
+        <titleShort>Tax collector</titleShort>
+        <description>[PAWN_nameDef] collected Imperial levies across a rural county, a role that required firmness, tact, and the ability to count under considerable social pressure. [PAWN_pronoun] was never the most popular person in any room but always among the most necessary.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Carpenter</defName>
+        <identifier>ESCP_Backstory_Imperial_Carpenter</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial carpenter</title>
+        <titleShort>Imperial carpenter</titleShort>
+        <description>[PAWN_nameDef] worked as a master carpenter, building furniture, fixtures, and structural woodwork for civic and noble commissions across Cyrodiil. [PAWN_pronoun] took no shortcuts and returned every piece that wasn't right, which was almost never.</description>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>4</Crafting>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Potter</defName>
+        <identifier>ESCP_Backstory_Imperial_Potter</identifier>
+        <slot>Adulthood</slot>
+        <title>Nibenean potter</title>
+        <titleShort>Nibenean potter</titleShort>
+        <description>[PAWN_nameDef] produced fine ceramic goods in the Nibenean craft tradition, working clay into vessels and decorative pieces prized across Cyrodiil. [PAWN_pronoun] sold [PAWN_possessive] work at market and had a habit of giving pieces away to people who struck [PAWN_objective] as needing something beautiful.</description>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Hedge_Knight</defName>
+        <identifier>ESCP_Backstory_Imperial_Hedge_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian hedge knight</title>
+        <titleShort>Hedge knight</titleShort>
+        <description>[PAWN_nameDef] was a landless warrior-for-hire operating in the Colovian territories, taking contracts from minor lords and merchants who needed problems solved discreetly. [PAWN_pronoun] was not picky about the work and quite selective about the company.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>2</Shooting>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Librarian</defName>
+        <identifier>ESCP_Backstory_Imperial_Librarian</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial librarian</title>
+        <titleShort>Librarian</titleShort>
+        <description>[PAWN_nameDef] maintained one of the Imperial City's great libraries, preserving texts, cataloguing holdings, and managing the scholars who believed that wanting access to a restricted volume entitled them to it. [PAWN_pronoun] was consistent, which they found less charming than [PAWN_pronoun] did.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Horse_Breeder</defName>
+        <identifier>ESCP_Backstory_Imperial_Horse_Breeder</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian horse breeder</title>
+        <titleShort>Horse breeder</titleShort>
+        <description>[PAWN_nameDef] bred and trained horses for the Imperial Legion's cavalry units, developing lines for endurance, temperament, and battlefield composure. [PAWN_pronoun] understood animals better than most people and cared for them accordingly.</description>
+        <skillGains>
+            <Animals>8</Animals>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Weaver</defName>
+        <identifier>ESCP_Backstory_Imperial_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>Nibenean weaver</title>
+        <titleShort>Nibenean weaver</titleShort>
+        <description>[PAWN_nameDef] wove cloth and tapestries in the Nibenean tradition, producing goods that ranged from workman's canvas to decorative pieces that graced noble halls. [PAWN_pronoun] found weaving meditative and customers exasperating, in roughly equal measure.</description>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Mine_Foreman</defName>
+        <identifier>ESCP_Backstory_Imperial_Mine_Foreman</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian mine foreman</title>
+        <titleShort>Mine foreman</titleShort>
+        <description>[PAWN_nameDef] oversaw operations at a silver or iron mine in the Colovian Highlands, managing workers, safety, equipment, and production quotas under the ever-present eyes of an Imperial mining contract. [PAWN_pronoun] kept the ore moving and the workers alive.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>4</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Funeral_Director</defName>
+        <identifier>ESCP_Backstory_Imperial_Funeral_Director</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial funeral director</title>
+        <titleShort>Funeral director</titleShort>
+        <description>[PAWN_nameDef] oversaw the burial rites of a major Cyrodiilian city, coordinating between the temples and the bereaved to ensure the dead were honored according to the rites of the Nine Divines. [PAWN_pronoun] was matter-of-fact about death in a way that survivors often found oddly comforting.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Entertainer</defName>
+        <identifier>ESCP_Backstory_Imperial_Entertainer</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial entertainer</title>
+        <titleShort>Imperial entertainer</titleShort>
+        <description>[PAWN_nameDef] performed in the taverns, plazas, and noble halls of the Imperial City as a singer, storyteller, and occasional comedic act. [PAWN_pronoun] understood audiences better than most scholars understood texts, and knew that people rarely wanted truth  they wanted something that felt like it.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Colovian_Militia</defName>
+        <identifier>ESCP_Backstory_Imperial_Colovian_Militia</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian militiaman</title>
+        <titleShort>Colovian militiaman</titleShort>
+        <description>[PAWN_nameDef] served in a local Colovian town militia, providing security between Legion patrols and handling the threats too small for the Empire to formally bother with. [PAWN_pronoun] was practical, not heroic, and proud of the distinction.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Silk_Merchant</defName>
+        <identifier>ESCP_Backstory_Imperial_Silk_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Nibenean silk merchant</title>
+        <titleShort>Silk merchant</titleShort>
+        <description>[PAWN_nameDef] imported and sold fine silk through contacts stretching from Elsweyr to the Imperial City, a trade that required a network of trust, a talent for valuation, and the patience to wait for the right buyer. [PAWN_pronoun] never undersold and never rushed.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Imperial_Merchant</li>
+            <li>ESCP_Backstory_Nibenean_Citizen</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Imperial_Frontier_Settler</defName>
+        <identifier>ESCP_Backstory_Imperial_Frontier_Settler</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian frontier settler</title>
+        <titleShort>Frontier settler</titleShort>
+        <description>[PAWN_nameDef] established a homestead on the edges of formally patrolled Imperial territory, building shelter, clearing land, and defending it without the convenience of nearby reinforcement. [PAWN_pronoun] asked for no help and was quietly grateful when it arrived anyway.</description>
+        <skillGains>
+            <Construction>6</Construction>
+            <Plants>4</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>ESCP_Backstory_Imperial_Citizen</li>
+            <li>ESCP_Backstory_Colovian_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>

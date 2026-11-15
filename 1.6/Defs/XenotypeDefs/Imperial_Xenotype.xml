@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Imperial</defName>
+        <label>Imperial</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <description>The cosmopolitan people of Cyrodiil - architects of the greatest empire Tamriel has ever known. Imperials are gifted diplomats and merchants, carrying an innate authority and the legendary Voice of the Emperor. Their Legion blood makes them reliable soldiers, cool under fire and difficult to break.</description>
+        <descriptionShort>Gifted diplomats and soldiers from the heartland of Tamriel, with natural talent for persuasion and combat discipline.</descriptionShort>
+        <inheritable>true</inheritable>
+        <genes>
+            <li>ESCP_Gene_Imperial_Bearing</li>
+            <li>ESCP_Gene_Voice_Emperor</li>
+            <li>ESCP_Gene_Imperial_Discipline</li>
+            <li>Skin_Melanin5</li>
+            <li>Skin_Melanin6</li>
+            <li>Skin_Melanin7</li>
+            <li>ESCP_Gene_Imperial_Heritage</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

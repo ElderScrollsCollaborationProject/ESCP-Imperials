@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_ImperialEmperor</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Emperor</pawnKind>
+        <faction>ESCP_Faction_Imperial</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Uriel</firstName>
+                <lastName>Septim</lastName>
+                <nickname>Emperor</nickname>
+                <gender>Male</gender>
+                <age>73</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 165, 160)</hairColor>
+                <hairDef>Elder</hairDef>
+                <beardDef>Stubble</beardDef>
+                <skinColorOverride>(225, 205, 185)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li MayRequire="Rick.ESCP.Greybeards">
+                        <key>ESCP_Trait_Dragonborn</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Emperor_Rick</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Emperor_Rick</pawnKind>
+        <faction>ESCP_Faction_Imperial</faction>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Rick</firstName>
+                <lastName>Farnsworth</lastName>
+                <nickname>Emperor Rick</nickname>
+                <gender>Male</gender>
+                <age>27</age>
+                <adulthood>ESCP_Backstory_Imperial_Emperor_Rick</adulthood>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(88, 60, 51)</hairColor>
+                <hairDef>ESCP_Hair_Emperor_Rick</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterUniqueItemDefinition">
+                <thingDef>ESCP_Apparel_Imperial_Legion_Legate_Armor</thingDef>
+                <quality>Masterwork</quality>
+                <isApparel>true</isApparel>
+            </li>
+            <li Class="ESCP.Core.CharacterUniqueItemDefinition">
+                <thingDef>MeleeWeapon_LongSword</thingDef>
+                <stuffDef>Steel</stuffDef>
+                <isWeapon>true</isWeapon>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

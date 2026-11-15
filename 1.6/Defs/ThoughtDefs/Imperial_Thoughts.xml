@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>ESCP_Thought_NibeneanVsColovian</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>ESCP.Imperials.ThoughtWorker_NibeneanVsColovian</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>provincial Colovian</label>
+                <baseOpinionOffset>-15</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ESCP_Thought_ColovianVsNibenean</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>ESCP.Imperials.ThoughtWorker_ColovianVsNibenean</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>soft Nibenean</label>
+                <baseOpinionOffset>-15</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

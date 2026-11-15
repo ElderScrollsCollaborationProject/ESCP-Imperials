@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HairDef>
+        <defName>ESCP_Hair_Emperor_Rick</defName>
+        <label>emperor's pomp</label>
+        <styleGender>Male</styleGender>
+        <texPath>Hairs/ESCP_Emperor_Rick/ESCP_Hair_Emperor_Rick</texPath>
+        <styleTags>
+            <li>ESCP_Emperor_Rick</li>
+        </styleTags>
+    </HairDef>
+
+</Defs>

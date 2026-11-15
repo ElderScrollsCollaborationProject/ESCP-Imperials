@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_ImperialLegion>Officer:</ESCP_Rank_Mentor_ImperialLegion>
+    <ESCP_Rank_Promote_ImperialLegion>Recommend for Promotion</ESCP_Rank_Promote_ImperialLegion>
+    <ESCP_Rank_Promoted_Text_ImperialLegion>{0} has been promoted to {1} of the Imperial Legion.</ESCP_Rank_Promoted_Text_ImperialLegion>
+    <ESCP_Rank_Rally_Title_ImperialLegion>{0} rallies the Legion</ESCP_Rank_Rally_Title_ImperialLegion>
+    <ESCP_Rank_Rally_Text_ImperialLegion>{0} roars the Legion's battle cry, and every soldier of {1} on the field closes ranks.</ESCP_Rank_Rally_Text_ImperialLegion>
+    <ESCP_Rank_InspectionComplete_Commended_ImperialLegion>{0} inspects {1}'s kit and finds it fit for a parade before the Emperor.</ESCP_Rank_InspectionComplete_Commended_ImperialLegion>
+    <ESCP_Rank_InspectionComplete_Reprimanded_ImperialLegion>{0} inspects {1}'s kit and orders it cleaned before sundown.</ESCP_Rank_InspectionComplete_Reprimanded_ImperialLegion>
+    <ESCP_Rank_PunishmentAssigned_ImperialLegion>{0} puts {1} on latrine duty.</ESCP_Rank_PunishmentAssigned_ImperialLegion>
+
+</LanguageData>

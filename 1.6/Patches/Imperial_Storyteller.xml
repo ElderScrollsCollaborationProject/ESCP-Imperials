@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="ESCP_Storyteller_Emporer_Rick"]/comps/li[incident="StrangerInBlackJoin"]/incident</xpath>
+        <value>
+            <incident>ESCP_Incident_BladeStrangerJoin</incident>
+        </value>
+    </Operation>
+
+</Patch>

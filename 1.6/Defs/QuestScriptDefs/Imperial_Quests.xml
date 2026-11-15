@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef Name="ESCP_Quest_Imperial_RequisitionBase" Abstract="True">
+        <rootSelectionWeight>0.5</rootSelectionWeight>
+        <rootMinPoints>20</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>false</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+    </QuestScriptDef>
+
+    <QuestScriptDef ParentName="ESCP_Quest_Imperial_RequisitionBase">
+        <defName>ESCP_Quest_Imperial_LegionSteel</defName>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Legion Requisition</li>
+                <li>questName->Steel for the Legion</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->The Imperial Legion is short of arms. A quartermaster acting for [asker_nameFull] wants [requiredCount] steel ingots for the legion forges, and the Empire will pay fairly for them.\n\nHave [requiredCount] steel ingots in your colony within [requisitionDays] days. The quartermaster's people will collect them as soon as they are counted.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <factionDef>ESCP_Faction_Imperial</factionDef>
+                    <storeAs>asker</storeAs>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requiredCount</name>
+                    <value>$(randInt(10,20)*10)</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requisitionDays</name>
+                    <value>20</value>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_WatchItemCountOnMap">
+                    <map>$map</map>
+                    <itemDef>Steel</itemDef>
+                    <requiredCount>$requiredCount</requiredCount>
+                    <outSignalComplete>requisition.Filled</outSignalComplete>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>requisition.Filled</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Requisition paid</customLetterLabel>
+                                <customLetterText>The quartermaster's wagons have taken the steel south to the legion forges, and the Empire's payment has arrived.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$($requisitionDays * 60000)</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+    <QuestScriptDef ParentName="ESCP_Quest_Imperial_RequisitionBase">
+        <defName>ESCP_Quest_Imperial_TreasuryLevy</defName>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Imperial Levy</li>
+                <li>questName->Gold for the Treasury</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->The Imperial treasury in the White-Gold Tower keeps its reserves in bullion, and a tax assessor acting for [asker_nameFull] has come asking for [requiredCount] gold ingots. The Empire pays for what it takes, and remembers who paid without complaint.\n\nHave [requiredCount] gold ingots in your colony within [requisitionDays] days. The assessor's guards will collect them as soon as they are counted.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <factionDef>ESCP_Faction_Imperial</factionDef>
+                    <storeAs>asker</storeAs>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requiredCount</name>
+                    <value>$(randInt(3,6))</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requisitionDays</name>
+                    <value>25</value>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_WatchItemCountOnMap">
+                    <map>$map</map>
+                    <itemDef>ESCP_Resource_Gold_Ingot</itemDef>
+                    <requiredCount>$requiredCount</requiredCount>
+                    <outSignalComplete>levy.Paid</outSignalComplete>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>levy.Paid</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Levy settled</customLetterLabel>
+                                <customLetterText>The assessor has counted the gold, stamped the ledger and sent payment from the treasury.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$($requisitionDays * 60000)</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

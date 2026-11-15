@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Legion_Discipline</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Legion discipline</label>
+                <description>Forged under the Legion's punishing training regimen, this soldier endures far more than the typical warrior before their mind gives way. Mental breaks are rare and shame follows surrender.</description>
+                <statOffsets>
+                    <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Imperial_Civility</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Imperial civility</label>
+                <description>Schooled in the customs of the Imperial court and the protocols of the Merchants Guild, this pawn navigates negotiation with polished confidence. Their presence commands attention and their words command better prices at market.</description>
+                <statOffsets>
+                    <NegotiationAbility>0.12</NegotiationAbility>
+                    <TradePriceImprovement>0.06</TradePriceImprovement>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Imperial_Scholar</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Imperial scholarship</label>
+                <description>Trained under the Mages Guild's rigorous academic tradition or in the archives of the Imperial City, this pawn approaches every field of study with disciplined method. Knowledge accumulates where others falter.</description>
+                <statOffsets>
+                    <ResearchSpeed>0.20</ResearchSpeed>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

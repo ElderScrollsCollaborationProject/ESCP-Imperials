@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <IncidentDef>
+        <defName>ESCP_Incident_BladeStrangerJoin</defName>
+        <label>stranger in black</label>
+        <category>Special</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>IncidentWorker_WandererJoin</workerClass>
+        <letterLabel>Stranger in black</letterLabel>
+        <letterText>Sensing trouble, a [PAWN_kind] has come down the road. The stranger won't give a name or say who sent [PAWN_objective], only that someone in the Imperial City would rather your colony didn't fall. Under the cloak is the dragon crest of the Blades.\n\nThe Emperor of Anvil has already sent a letter taking credit.</letterText>
+        <baseChance>0</baseChance>
+        <minRefireDays>60</minRefireDays>
+        <minGreatestPopulation>3</minGreatestPopulation>
+        <pawnKind>ESCP_Pawnkind_Imperial_Blade_Stranger</pawnKind>
+        <pawnMustBeCapableOfViolence>true</pawnMustBeCapableOfViolence>
+    </IncidentDef>
+
+</Defs>
