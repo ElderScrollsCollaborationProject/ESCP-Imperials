@@ -63,7 +63,7 @@
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
-            <li Class="ESCP.Core.CharacterUniqueItemDefinition">
+            <li Class="ESCP.Core.CharacterUniqueItemDefinition" MayRequire="ESCP.ImperialArmory">
                 <thingDef>ESCP_Apparel_Imperial_Legion_Legate_Armor</thingDef>
                 <quality>Masterwork</quality>
                 <isApparel>true</isApparel>
@@ -129,7 +129,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(120, 100, 80)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Full</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -168,7 +168,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(150, 150, 150)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Full</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -194,7 +194,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(90, 60, 40)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Stubble</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -253,7 +253,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(170, 170, 170)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Full</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -287,7 +287,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(160, 160, 160)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -345,7 +345,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(140, 100, 60)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Stubble</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>

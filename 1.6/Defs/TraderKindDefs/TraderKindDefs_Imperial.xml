@@ -8,6 +8,9 @@
             <li Class="ESCP.Currencies.CurrencyReplacement">
                 <currency>ESCP_Currency_Septims</currency>
             </li>
+            <li Class="ESCP.Currencies.BullionBuyer">
+                <sellPriceFactor>1.25</sellPriceFactor>
+            </li>
         </modExtensions>
 
         <stockGenerators>
@@ -63,6 +66,23 @@
 
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>ExoticMisc</tag>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ESCP_Resources_Raw</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>150~500</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_ElementalSalts</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>4~12</countRange>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ESCP_Bullion</tag>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Resource_Gold_Ingot</thingDef>
+                <countRange>0~3</countRange>
             </li>
 
         </stockGenerators>
@@ -141,6 +161,16 @@
 
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>Art</tag>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ESCP_Resources_Raw</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>150~500</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_ElementalSalts</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>4~12</countRange>
             </li>
 
         </stockGenerators>

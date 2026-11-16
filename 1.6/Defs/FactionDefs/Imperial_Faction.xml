@@ -145,6 +145,7 @@
                     <ESCP_Pawnkind_Imperial_Legionnaire_Expeditionary_Heavy>3</ESCP_Pawnkind_Imperial_Legionnaire_Expeditionary_Heavy>
                     <ESCP_Pawnkind_Imperial_Blade>2</ESCP_Pawnkind_Imperial_Blade>
                     <ESCP_Pawnkind_Imperial_Legate>1</ESCP_Pawnkind_Imperial_Legate>
+                    <ESCP_Pawnkind_Minotaur_Imperial MayRequire="Rick.ESCP.Minotaurs">0.3</ESCP_Pawnkind_Minotaur_Imperial>
                 </options>
             </li>
             <li>
@@ -185,6 +186,7 @@
                     <ESCP_Pawnkind_Imperial_Palace_Guard>3</ESCP_Pawnkind_Imperial_Palace_Guard>
                     <ESCP_Pawnkind_Imperial_Blade>3</ESCP_Pawnkind_Imperial_Blade>
                     <ESCP_Pawnkind_Imperial_Legate>2</ESCP_Pawnkind_Imperial_Legate>
+                    <ESCP_Pawnkind_Minotaur_Imperial MayRequire="Rick.ESCP.Minotaurs">0.15</ESCP_Pawnkind_Minotaur_Imperial>
                 </options>
             </li>
         </pawnGroupMakers>
@@ -209,6 +211,37 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_ImperialLegion</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_ImperialLegion</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Imperial City</li>
+                    <li>Chorrol</li>
+                    <li>Bruma</li>
+                    <li>Anvil</li>
+                    <li>Skingrad</li>
+                    <li>Kvatch</li>
+                    <li>Cheydinhal</li>
+                    <li>Leyawiin</li>
+                    <li>Bravil</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>TemperateSwamp</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+            <li Class="ESCP.Core.Crime.FactionExtension_Law" />
         </modExtensions>
     </FactionDef>
 

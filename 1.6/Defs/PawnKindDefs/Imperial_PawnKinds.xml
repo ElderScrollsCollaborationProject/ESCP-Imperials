@@ -244,6 +244,9 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Officer_Uniform</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -310,6 +313,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Uniform</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -373,6 +380,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Uniform</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -434,6 +445,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Uniform</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Decanus_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -497,6 +512,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Leather_Armor</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Light_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -558,6 +577,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Steel_Armor</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Closed_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -610,6 +633,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Officer_Uniform</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Officer_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -665,6 +692,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Legate_Armor</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Legate_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -726,6 +757,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Legate_Armor</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Legate_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
@@ -775,6 +810,10 @@
         <forcedTraits>
             <ESCP_Trait_Legion_Discipline>0</ESCP_Trait_Legion_Discipline>
         </forcedTraits>
+        <apparelRequired>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Blades_Armor</li>
+            <li MayRequire="ESCP.ImperialArmory">ESCP_Apparel_Imperial_Legion_Legate_Helmet</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
