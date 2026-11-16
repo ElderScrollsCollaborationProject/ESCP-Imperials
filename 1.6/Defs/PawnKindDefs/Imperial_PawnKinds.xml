@@ -249,6 +249,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legionnaire</defName>
         <label>Imperial legionnaire</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>60</combatPower>
         <itemQuality>Normal</itemQuality>
         <canBeSapper>true</canBeSapper>
@@ -308,6 +315,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legionnaire_Archer</defName>
         <label>Imperial archer</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>55</combatPower>
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -364,6 +378,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legionnaire_Decanus</defName>
         <label>Imperial decanus</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>85</combatPower>
         <itemQuality>Good</itemQuality>
         <gearHealthRange>0.6~2.0</gearHealthRange>
@@ -418,6 +439,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legionnaire_Expeditionary</defName>
         <label>Imperial expeditionary</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>70</combatPower>
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -474,6 +502,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legionnaire_Expeditionary_Heavy</defName>
         <label>Imperial expeditionary (heavy)</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>120</combatPower>
         <itemQuality>Excellent</itemQuality>
         <gearHealthRange>0.7~2.0</gearHealthRange>
@@ -635,6 +670,13 @@
     <PawnKindDef ParentName="ESCP_ImperialkindBase">
         <defName>ESCP_Pawnkind_Imperial_Legate</defName>
         <label>Imperial legate</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Nord MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Nords">0.15</ESCP_Xenotype_Nord>
+                <ESCP_Xenotype_Breton MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Bretons">0.15</ESCP_Xenotype_Breton>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech,Rick.ESCP.Orsimer">0.04</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
         <combatPower>150</combatPower>
         <itemQuality>Excellent</itemQuality>
         <gearHealthRange>0.8~2.0</gearHealthRange>
